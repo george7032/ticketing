@@ -1,33 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+/* Style for login page */
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helpdesk System</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
 
-<body>
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    <header>
-        <div class="container">
-            <nav>
-                <h1>Helpdesk System</h1>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+.login-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-    <section class="hero">
-        <div class="container">
-            <h2>Welcome to our Helpdesk System</h2>
-            <p>We are here to assist you with any IT-related issues.</p>
-            <a href="#" class="btn">Get Started</a>
-        </div>
-    </section>
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #0056b3;
+}
